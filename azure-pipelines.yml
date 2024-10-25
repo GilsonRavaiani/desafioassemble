@@ -37,7 +37,7 @@ steps:
   inputs:
       command: 'buildAndPush'
       repository: 'gilsonravaiani/docker'  # Seu repositório no Docker Hub
-      dockerfile: 'unyleya_projeto_cicd_GilsonRavaiani/Dockerfile'  # Caminho atualizado
+      dockerfile: './unyleya_projeto_cicd_GilsonRavaiani/Dockerfile'  # Caminho atualizado
       tags: |
         latest
       containerRegistry: 'Docker_Connections'  # Nome da sua conexão de serviço
